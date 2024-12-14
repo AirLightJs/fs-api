@@ -1,0 +1,29 @@
+{
+  "compilerOptions" : {
+    "target" : "es2016",
+    "module" : "CommonJS",
+    "esModuleInterop" : true,
+    "moduleResolution" : "node",
+    "forceConsistentCasingInFileNames" : true,
+    "experimentalDecorators" : true,
+    "skipLibCheck" : true,
+    "removeComments" : true,
+    "strictNullChecks" : false,
+    "baseUrl" : "./",
+    "paths" : {
+      "@env/*" : [
+        "src/env/*"
+      ],
+      "@interface/*" : [
+        "src/interface/*"
+      ],
+      "@service/*" : [
+        "src/service/*"
+      ]
+    }
+  },
+  "exclude" : [
+    "node_modules",
+    "storage"
+  ]
+}
